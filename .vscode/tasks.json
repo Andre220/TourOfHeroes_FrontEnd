@@ -18,7 +18,10 @@
             "regexp": "bundle generation complete"
           }
         }
-      }
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/src"
+      },
     },
     {
       "type": "npm",
@@ -36,7 +39,10 @@
             "regexp": "bundle generation complete"
           }
         }
-      }
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/src"
+      },
     }
   ]
 }
